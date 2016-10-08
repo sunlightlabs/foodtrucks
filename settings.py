@@ -42,7 +42,7 @@ MEDIA_URL = '/media/'
 ADMIN_MEDIA_PREFIX = '/admin/media/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ')el(%l$3-_ti!wc6-zplje!jsloy(0=^)7ka-b3iqbkd2^^y^='
+SECRET_KEY = ''
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -80,7 +80,7 @@ TWITTER = {
     'consumer_key': '',
     'consumer_secret': '',
     'oauth_filename': 'ftruck/.oauth_token',
-    'user_name': 'sbma44',
+    'user_name': '',
     'list_name': 'dc-food-carts'
 }
 
